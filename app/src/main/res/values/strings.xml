@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MathsAllConversions</string>
+    <string name="convert_to_inch">Convert </string>
+    <string name="error_message">Please enter valid number</string>
+    <string name="convert_to_meter">Convert to meter</string>
+    <string name="titleofinch">  meter Connversion</string>
+    <string name="titleofmeters">Connvert kilometers to meters</string>
+    <string name="inch">INCH =</string>
+    <string name="centimeter">CENTIMETER =</string>
+    <string name="feet">FEET =</string>
+    <string name="meter_to_yard">yard =</string>
+    <string name="enter_a_number">enter a number</string>
+</resources>

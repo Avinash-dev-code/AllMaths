@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+   android:layout_column="2"
+   android:layout_row="2"
+
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
+    tools:context=".GridData">
+
+
+    <TextView
+        android:id="@+id/data1"
+        android:layout_width="190dp"
+        android:layout_height="220dp"
+        android:layout_row="0"
+        android:paddingEnd="12dp"
+        android:paddingTop="12dp"
+        android:background="#F57C00"
+
+        android:paddingBottom="12dp"
+        android:paddingStart="12dp"
+        android:layout_column="0"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Maths formulas"
+
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</GridLayout>
